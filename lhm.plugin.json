@@ -1,0 +1,36 @@
+{
+  "identifier": "plc-cloud-sim",
+  "name": "PLC Cloud Sim",
+  "version": "0.1.0",
+  "description": "Cloud PLC simulator over MCP: validate and step-run LAD/SCL programs, run scenario acceptance, return PASS/FAIL. No TIA Portal install required.",
+  "author": "汇智网 (hubwiz)",
+  "authorUrl": "https://github.com/tia-forge",
+  "homepage": "https://github.com/tia-forge/plc-cloud-sim",
+  "cloudEndpoint": "https://tia.hubwiz.com/sim/mcp",
+  "category": "developer",
+  "tags": [
+    "mcp",
+    "plc",
+    "siemens",
+    "tia-portal",
+    "ladder",
+    "scl",
+    "simulation",
+    "industrial-automation"
+  ],
+  "localizations": [
+    {
+      "locale": "zh-CN",
+      "name": "PLC Cloud Sim",
+      "description": "PLC 云仿真 MCP：校验并逐扫描周期运行梯形图（LAD）与 SCL 程序，跑场景化验收、拿 PASS/FAIL 报告，不需要安装博途。",
+      "tags": [
+        "博途",
+        "PLC",
+        "梯形图",
+        "SCL",
+        "仿真",
+        "工业自动化"
+      ]
+    }
+  ]
+}

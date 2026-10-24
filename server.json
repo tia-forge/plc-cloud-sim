@@ -1,0 +1,34 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.tia-forge/plc-cloud-sim",
+  "title": "PLC Cloud Sim — LAD/SCL simulation over MCP",
+  "description": "Cloud PLC simulator: validate and step-run LAD/SCL programs, run scenarios, return PASS/FAIL.",
+  "version": "0.1.1",
+  "websiteUrl": "https://tia.hubwiz.com/sim",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tia.hubwiz.com/sim/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer API key from https://tia.hubwiz.com/sim, format 'Bearer sim_live_...'. WeChat login issues a free key with 100 calls; top-ups are 1000 calls for ¥9.",
+          "isRequired": true,
+          "isSecret": true,
+          "value": "Bearer {sim_api_key}",
+          "variables": {
+            "sim_api_key": {
+              "description": "sim_live_... API key created in the web console (shown once).",
+              "isRequired": true,
+              "isSecret": true
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/tia-forge/plc-cloud-sim",
+    "source": "github"
+  }
+}
