@@ -10,7 +10,7 @@ report — **without installing TIA Portal**.
 - **Endpoint**: `https://tia.hubwiz.com/sim/mcp`
 - **Transport**: Streamable HTTP (stateless, POST JSON-RPC)
 - **Auth**: `Authorization: Bearer sim_live_…` (the `X-API-Key` header is also accepted)
-- **Dashboard / API keys**: https://tia.hubwiz.com/sim
+- **Dashboard / API keys**: https://tia.hubwiz.com/sim?utm_source=github&utm_medium=readme&utm_campaign=plc-cloud-sim
 - **Registry entry**: `io.github.tia-forge/plc-cloud-sim` ([official MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=plc-cloud-sim))
 
 ## What it does

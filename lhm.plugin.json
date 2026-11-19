@@ -6,7 +6,6 @@
   "author": "汇智网 (hubwiz)",
   "authorUrl": "https://github.com/tia-forge",
   "homepage": "https://github.com/tia-forge/plc-cloud-sim",
-  "cloudEndpoint": "https://tia.hubwiz.com/sim/mcp",
   "category": "developer",
   "tags": [
     "mcp",
